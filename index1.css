@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+nav {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+nav .ul1 {
+    display: flex;
+    position: relative;
+}
+nav .ul2 {
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+nav li {
+    margin: 20px;
+    color: black;
+    font-family: sans-serif;
+}
+nav li:hover {
+    border-bottom: 2px #333 solid;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+nav li a {
+    color: black;
+}

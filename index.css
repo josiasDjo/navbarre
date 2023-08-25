@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+nav {
+    width: 95%;
+    display: flex;
+    margin: auto;
+    position: relative;
+}
+nav .ul1 {
+    display: flex;
+    position: relative;
+}
+nav .ul2 {
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+nav li {
+    margin: 20px;
+    color: black;
+    font-family: sans-serif;
+
+}
